@@ -17,3 +17,8 @@ Heres a map of where each file should go.
 `polybar-launch.sh` -> `~/.config/polybar/launch.sh`
 
 `betterdiscord.theme.css` -> `~/.config/BetterDiscord/themes/Amuro_Ray.theme.css`
+
+## Screenshots
+
+![Discord](https://i.imgur.com/DzLuYlh.png)
+![Rhythmbox](https://i.imgur.com/Iss4fRf.png)
