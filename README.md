@@ -20,5 +20,5 @@ Heres a map of where each file should go.
 
 ## Screenshots
 
-![Discord](https://i.imgur.com/DzLuYlh.png)
+![Discord](https://i.imgur.com/Ip6FTWU.png)
 ![Rhythmbox](https://i.imgur.com/Iss4fRf.png)
