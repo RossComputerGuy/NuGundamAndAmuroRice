@@ -56,3 +56,30 @@ svg[name="Discord"] *{display: none;}
 .button-2vd_v_ {
     display: none;
 }
+
+.theme-dark .friendsOnline-_wi_fM, .theme-light .friendsOnline-_wi_fM {
+    display: none;
+}
+
+.large-3ChYtB {
+    display: none;
+}
+
+.contentCozy-3XX413 .content-3dzVd8 .da-contentCozy .da-content {
+    margin-left: 0px;
+}
+
+.theme-dark .item-1Yvehc {
+    background-color: #3a3f4b;
+    color: #ff0000;
+}
+
+.theme-dark .itemGroup-1tL0uz {
+    background-color: #3a3f4b;
+    color: #ff0000;
+}
+
+.theme-dark.contextMenu-HLZMGh {
+    background-color: #3a3f4b;
+    color: #ff0000;
+}
