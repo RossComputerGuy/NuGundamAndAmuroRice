@@ -1,0 +1,50 @@
+//META{"name":"Amuro Ray","description":"An Amuro Ray/Nu Gundam theme.","author":"Spaceboy Ross","version":"1.0"}*//
+
+svg[name="Discord"]{
+    background-image: url("https://i.imgur.com/3aDKf61.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #3a3f4b;
+}
+
+svg[name="Discord"] *{display: none;}
+
+.contentSelectedText-3wUhMi, .contentSelectedVoice-1WDIBM, .nameConnectedText-3CzNQn, .nameConnectedVoice-MHUX5F, .nameSelectedText-sp_EUw, .nameSelectedVoice-1qSph5 {
+    color: #ff0000;
+    background-color: #3a3f4b;
+}
+
+.nameHoveredText-1uO31y, .contentConnectedVoice-qL-YrL:active, .contentHoveredText-2D9B-x, .contentHoveredVoice-3p_NEO:active, .contentSelectedVoice-1WDIBM:active {
+    background-color: #3a3f4b;
+}
+
+.label-1Y-LW5, .theme-dark .channelName-3stJzi, .theme-dark .groupDM-3qU0Ks .channelName-3stJzi, .theme-dark .groupDMManaged-1GyXtq .channelName-3stJzi, .theme-dark .input-autosize-input, .theme-dark .input-autosize-input:focus {
+    color: #ff0000;
+}
+
+.theme-dark .item-1GzJrl:hover, .guild-1EfMGQ.folder .icon-3o6xvg, .theme-dark .guildsAdd-21_IdK:hover, .theme-dark .guildsAdd-21_IdK {
+    background-color: #3a3f4b;
+}
+
+.theme-dark .alt-3btY0e .helper-2c73HK {
+    color: #ffffff;
+}
+
+.bot-2Fta1w {
+    background-color: #ff0000;
+    color: #ffffff;
+}
+
+.headerTop-3C2Zn0, .theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 {
+    background-color: #3a3f4b;
+}
+
+.name-3YKhmS, .header-2o-2hj, .header-2o-2hj:hover, .theme-dark .title-3qD0b- {
+    color: #ff0000;
+    background-color: #3a3f4b;
+}
+
+.resultsGroup-r_nuzN, .recentMentionsPopout-2fmau1 .header-3LXPrb, .messagesPopout-24nkyi, .guilds-1q_RqH, .searchBar-6Kv8R2, .theme-dark .headerBar-UHpsPw, .directionColumn-35P_nr, .flex-spacer, .headerCozy-2N9HOL, .messages-3amgkR, .theme-dark .membersGroup-v9BXpm, .theme-dark .members-1998pB, .sidebarRegionScroller-3MXcoP, .contentRegionScroller-26nc1e {
+    background-color: #3a3f4b;
+}

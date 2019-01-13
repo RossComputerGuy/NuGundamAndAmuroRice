@@ -11,3 +11,4 @@ Heres a map of where each file should go.
 `polybar.config` -> `~/.config/polybar/config`
 `polybar-launch.sh` -> `~/.config/polybar/launch.sh`
 `conkyrc` -> `~/.conkyrc`
+`betterdiscord.theme.css` -> `~/.config/BetterDiscord/themes/Amuro_Ray.theme.css`
