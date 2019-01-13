@@ -1,0 +1,61 @@
+conky.config = {
+	use_xft = true,
+	update_interval = 1,
+	own_window = true,
+	own_window_class = 'Conky',
+	own_window_type = "normal",
+	own_window_hints = "above,skip_taskbar,skip_pager,sticky",
+	own_window_transparent = false,
+	own_window_argb_visual = true,
+	own_window_argb_value = 26,
+	own_window_colour = "33393b",
+	background = true,
+	double_buffer = true,
+	draw_shades = false,
+	draw_outline = false,
+	draw_borders = false,
+	draw_graph_borders = false,
+	alignment = "top_left",
+	minimum_width = 270,
+	maximum_width = 270,
+	minimum_height = 711,
+	gap_x = 10,
+	gap_y = 42,
+	font = "DejaVuSansMono:size=10",
+	default_color = "ffffff",
+	out_to_console = false,
+	out_to_stderr = false
+};
+
+conky.text = [[
+${font DejaVuSansMono:size=20:weight=bold}System${font}
+${hr 1}
+${scroll 27 $nodename - $sysname $kernel on $machine | }
+${font DejaVuSansMono:size=10:weight=bold}Current Win:${font} ${scroll 15 ${exec xdotool getactivewindow getwindowname}}
+${font DejaVuSansMono:size=10:weight=bold}Uptime:${font} ${uptime}
+${voffset 10}
+${font DejaVuSansMono:size=10:weight=bold}Mem:${font}${offset 20}${membar}
+${font DejaVuSansMono:size=10:weight=bold}Swap:${font}${offset 10}${swapbar}
+${voffset 10}
+${font DejaVuSansMono:size=10:weight=bold}CPU1${font}${offset 10}${cpubar cpu1}
+${font DejaVuSansMono:size=10:weight=bold}CPU2${font}${offset 10}${cpubar cpu2}
+${font DejaVuSansMono:size=10:weight=bold}CPU3${font}${offset 10}${cpubar cpu3}
+${font DejaVuSansMono:size=10:weight=bold}CPU4${font}${offset 10}${cpubar cpu4}
+${voffset 10}
+${font DejaVuSansMono:size=10:weight=bold}Battery${font}${offset 10}${battery_bar}
+${font DejaVuSansMono:size=10:weight=bold}GPU Temp:${font} ${nvidia temp}°
+
+${voffset 10}
+${font DejaVuSansMono:size=20:weight=bold}Disks${font}
+Mount${alignc}Temp${alignr}Free
+${hr 1}
+/${alignc}${hddtemp /dev/sda}°${offset 30}${fs_bar /}
+
+${voffset 10}
+${font DejaVuSansMono:size=20:weight=bold}Music${font}
+${hr 1}
+${if_match ${exec playerctl status} == "Playing"}
+${scroll 27 ${exec playerctl metadata 'xesam:title'} - ${exec playerctl metadata 'xesam:artist'}}
+${alignc}${exec playerctl position} Seconds
+${endif}
+]]
