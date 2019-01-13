@@ -48,3 +48,7 @@ svg[name="Discord"] *{display: none;}
 .resultsGroup-r_nuzN, .recentMentionsPopout-2fmau1 .header-3LXPrb, .messagesPopout-24nkyi, .guilds-1q_RqH, .searchBar-6Kv8R2, .theme-dark .headerBar-UHpsPw, .directionColumn-35P_nr, .flex-spacer, .headerCozy-2N9HOL, .messages-3amgkR, .theme-dark .membersGroup-v9BXpm, .theme-dark .members-1998pB, .sidebarRegionScroller-3MXcoP, .contentRegionScroller-26nc1e {
     background-color: #3a3f4b;
 }
+
+.typing-2GQL18 {
+    background-color: #3a3f4b !important;
+}
